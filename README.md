@@ -18,7 +18,7 @@ This is a minimal Flask app deployed in Kubernetes using raw YAML files. I built
 
 ## Folder Structure
 
-<pre> flask-k8s-demo/ ├── app.py # Flask app ├── requirements.txt # Python dependencies ├── Dockerfile # Docker image setup ├── pod.yaml # (initial) Kubernetes Pod definition ├── deployment.yaml # Kubernetes Deployment config └── service.yaml # Kubernetes Service to expose app </pre>
+<pre> ```flask-k8s-demo/ ├── app.py # Flask app ├── requirements.txt # Python dependencies ├── Dockerfile # Docker image setup ├── pod.yaml # (initial) Kubernetes Pod definition ├── deployment.yaml # Kubernetes Deployment config └── service.yaml # Kubernetes Service to expose app``` </pre>
 
 ## 1. Start Minikube
 
