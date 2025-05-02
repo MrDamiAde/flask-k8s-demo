@@ -1,6 +1,6 @@
 # 🐳 Flask App in Kubernetes (flask-k8s-demo)
 
-This is a minimal Flask app deployed in Kubernetes using raw YAML files. I built this to practise container orchestration using Kubernetes concepts like **Pods**, **Services**, and **Deployments** — all run locally using Minikube.
+This is a minimal Flask app deployed in Kubernetes using raw YAML files. I built this to practise container orchestration using Kubernetes concepts like **Pods**, **Services**, and **Deployments**. This all runs locally using Minikube.
 
 ---
 
@@ -18,7 +18,7 @@ This is a minimal Flask app deployed in Kubernetes using raw YAML files. I built
 
 ## Folder Structure
 
-<pre> flask-k8s-demo/ ├── app.py # Flask app ├── requirements.txt # Python dependencies ├── Dockerfile # Builds a lightweight Flask image ├── pod.yaml # (Initial) K8s Pod definition ├── deployment.yaml # Production-ready Deployment with labels ├── service.yaml # ClusterIP Service to expose the app </pre>
+<pre> flask-k8s-demo/ ├── app.py # Flask app ├── requirements.txt # Python dependencies ├── Dockerfile # Docker image setup ├── pod.yaml # (initial) Kubernetes Pod definition ├── deployment.yaml # Kubernetes Deployment config └── service.yaml # Kubernetes Service to expose app </pre>
 
 ## 1. Start Minikube
 
